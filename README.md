@@ -12,5 +12,5 @@ Para realizar la ejecución del archivos es necesario tener instalado node.js
 
 ¿Cómo realizar la ejecución de los archivos?
 
-1. Abrir el archivo main.js en una terminal integrada
-2. Ejecutar el comando node main.js
+1. Abrir el archivo ````main.js```` en una terminal integrada
+2. Ejecutar el comando ````node main.js````
