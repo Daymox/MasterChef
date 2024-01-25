@@ -6,11 +6,6 @@ export class SousChef extends Cocinero {
 		super();
 		this.especialidad = 'souschef';
 	}
-
-	cocinarPlato() {
-		const entrada = Platos.crearEntrada();
-		return entrada;
-	}
 	
 	// Punto #2
 	catarPlato(plato) {
