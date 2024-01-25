@@ -8,15 +8,11 @@ export class Pastelero extends Cocinero {
 		this.nivelDulzor = nivelDulzor;
 	}
 
+	// Punto #5
 	cocinarPlato(colores) {
 		const postre = Platos.crearPostre(colores);
 		postre.setAzucar(this.nivelDulzor * 50);
 		postre.calcularCalorias();
 		return postre;
-	}
-
-	catarPlato(plato) {
-		let calificacionPlato = (5 * plato.azucar) / this.nivelDulzor;
-		return calificacionPlato > 10 ? 10 : calificacionPlato;
 	}
 }
