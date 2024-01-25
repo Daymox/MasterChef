@@ -8,6 +8,7 @@ export class Chef extends Cocinero {
 		this.caloriasPreferidas = caloriasPreferidas;
 	}
 
+	// Punto #5
 	cocinarPlato() {
 		const platoPrincipal = Platos.crearPlatoPrincipal(
 			this.caloriasPreferidas,
@@ -15,9 +16,5 @@ export class Chef extends Cocinero {
 		);
 		platoPrincipal.calcularCalorias();
 		return platoPrincipal;
-	}
-
-	catarPlato(plato) {
-		return plato.bonito && this.caloriasPreferidas === plato.calorias ? 10 : 0;
 	}
 }
