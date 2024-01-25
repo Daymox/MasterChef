@@ -9,6 +9,7 @@ export class Plato {
 		this.azucar = azucar;
 	}
 
+	// Punto #1
 	calcularCalorias() {
 		this.calorias = 3 * this.azucar + 100;
 	}
