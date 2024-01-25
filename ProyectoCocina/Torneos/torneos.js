@@ -1,3 +1,4 @@
+// Punto #6
 export class Torneo {
 	constructor() {
 		this.catadores = [];
