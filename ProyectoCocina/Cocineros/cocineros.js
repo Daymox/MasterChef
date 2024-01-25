@@ -3,21 +3,9 @@ export class Cocinero {
 		this.especialidad = '';
 	}
 
-	cambiarEspecialidad(nuevaEspecialidad) {
-		this.especialidad = nuevaEspecialidad;
-	}
-
+	// Punto #5
 	cocinarPlato() {
 		// Método abstracto
 	}
 
-	catarPlato(plato) {
-		// Método abstracto
-	}
-
-	participarTorneo(torneo) {
-		const plato = this.cocinarPlato();
-		const puntuacionPlato = torneo.evaluarPlato(plato, this);
-		torneo.agregarParticipante(this, plato, puntuacionPlato);
-	}
 }
