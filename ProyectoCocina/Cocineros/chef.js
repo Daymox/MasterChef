@@ -17,6 +17,7 @@ export class Chef extends Cocinero {
 		return platoPrincipal;
 	}
 
+	// Punto #2
 	catarPlato(plato) {
 		return plato.bonito && this.caloriasPreferidas === plato.calorias ? 10 : 0;
 	}
