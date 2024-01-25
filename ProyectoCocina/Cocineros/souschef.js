@@ -6,15 +6,10 @@ export class SousChef extends Cocinero {
 		super();
 		this.especialidad = 'souschef';
 	}
-
+	
+	// Punto #5
 	cocinarPlato() {
 		const entrada = Platos.crearEntrada();
 		return entrada;
-	}
-
-	catarPlato(plato) {
-		return plato.bonito && this.caloriasPreferidas === plato.calorias
-			? 10
-			: Math.min(plato.calorias / 100, 6);
 	}
 }
