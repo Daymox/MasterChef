@@ -11,7 +11,8 @@ export class SousChef extends Cocinero {
 		const entrada = Platos.crearEntrada();
 		return entrada;
 	}
-
+	
+	// Punto #2
 	catarPlato(plato) {
 		return plato.bonito && this.caloriasPreferidas === plato.calorias
 			? 10
