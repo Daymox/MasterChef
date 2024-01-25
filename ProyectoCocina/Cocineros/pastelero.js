@@ -15,6 +15,7 @@ export class Pastelero extends Cocinero {
 		return postre;
 	}
 
+	// Punto #2
 	catarPlato(plato) {
 		let calificacionPlato = (5 * plato.azucar) / this.nivelDulzor;
 		return calificacionPlato > 10 ? 10 : calificacionPlato;
