@@ -1,6 +1,7 @@
 import { Cocinero } from './cocineros.js';
 import { Platos } from '../Platos/menu.js';
 
+// Punto #4
 export class SousChef extends Cocinero {
 	constructor() {
 		super();
